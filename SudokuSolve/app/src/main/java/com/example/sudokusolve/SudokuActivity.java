@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class SudokuActivity extends AppCompatActivity {
 
@@ -24,9 +25,18 @@ public class SudokuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 createPuzzle();
-                puzzle.solve();
-                updateDisplay();
 
+                if(!puzzle.verify()){
+                    Toast.makeText(getApplicationContext(), "Puzzle could not be solved \n Puzzle violates the rules of Sudoku", Toast.LENGTH_LONG).show();
+
+                }else {
+                    if (puzzle.solve()) {
+                        Toast.makeText(getApplicationContext(), "Puzzle Solved!", Toast.LENGTH_LONG).show();
+                        updateDisplay();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Puzzle could not be solved", Toast.LENGTH_LONG).show();
+                    }
+                }
             }
         });
 
@@ -43,7 +53,6 @@ public class SudokuActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 
 
@@ -63,7 +72,7 @@ public class SudokuActivity extends AppCompatActivity {
             }
         }
         puzzle = new Puzzle(arr);
-        puzzle.display();
+        //puzzle.display();
     }
 
     private void updateDisplay(){
@@ -78,7 +87,6 @@ public class SudokuActivity extends AppCompatActivity {
                 }else{
                     curText.setText(Integer.toString(arr[i][j]));
                 }
-
             }
         }
     }

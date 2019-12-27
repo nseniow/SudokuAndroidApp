@@ -33,13 +33,13 @@ public class Puzzle {
         return true;
     }
 
-    boolean check(int row, int col, int guess) {
+    private boolean check(int row, int col, int guess) {
         return checkV(row, col, guess) &&
                 checkH(row, col, guess) &&
                 checkSqr(row, col, guess);
     }
 
-    boolean checkV(int row, int col, int guess) {
+    private boolean checkV(int row, int col, int guess) {
         for(int i=0;i<9;i++) {
             if(arr[i][col]==guess) {
                 return false;
@@ -48,7 +48,7 @@ public class Puzzle {
         return true;
     }
 
-    boolean checkH(int row, int col, int guess) {
+    private boolean checkH(int row, int col, int guess) {
         for(int j=0;j<9;j++) {
             if(arr[row][j]==guess) {
                 return false;
@@ -57,7 +57,7 @@ public class Puzzle {
         return true;
     }
 
-    boolean checkSqr(int row, int col, int guess) {
+    private boolean checkSqr(int row, int col, int guess) {
         int I = row/3*3;
         int J = col/3*3;
 
@@ -69,6 +69,24 @@ public class Puzzle {
             }
         }
 
+        return true;
+    }
+
+    boolean verify(){ //Make sure that the array does not already break the rules of sudoku as this will cause the algorithm to hang
+        for(int i=0;i<9;i++){
+            for(int j=0;j<9;j++){
+                if (arr[i][j] != 0) {
+                    int tempStore = arr[i][j];
+                    arr[i][j] = 0;
+
+                    if(check(i,j,tempStore)){
+                        arr[i][j] = tempStore;
+                    }else {
+                        return false;
+                    }
+                }
+            }
+        }
         return true;
     }
 
