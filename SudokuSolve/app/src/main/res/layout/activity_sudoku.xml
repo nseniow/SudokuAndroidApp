@@ -23,7 +23,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText01"
@@ -32,7 +33,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText02"
@@ -41,14 +43,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText03"
@@ -57,7 +60,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText04"
@@ -66,7 +70,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText05"
@@ -75,14 +80,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view2"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText06"
@@ -91,7 +97,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText07"
@@ -100,7 +107,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText08"
@@ -109,7 +117,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -124,7 +133,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText11"
@@ -133,7 +143,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText12"
@@ -142,14 +153,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view3"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText13"
@@ -158,7 +170,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText14"
@@ -167,7 +180,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText15"
@@ -176,14 +190,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view4"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText16"
@@ -192,7 +207,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText17"
@@ -201,7 +217,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText18"
@@ -210,7 +227,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -225,7 +243,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText21"
@@ -234,7 +253,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText22"
@@ -243,14 +263,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view5"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText23"
@@ -259,7 +280,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText24"
@@ -268,7 +290,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText25"
@@ -277,14 +300,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view6"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText26"
@@ -293,7 +317,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText27"
@@ -302,7 +327,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText28"
@@ -311,14 +337,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <View
             android:id="@+id/view99"
-            android:layout_height="3dip"
             android:layout_width="fill_parent"
-            android:background="#000000"/>
+            android:layout_height="3dip"
+            android:background="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -332,7 +359,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText31"
@@ -341,7 +369,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText32"
@@ -350,14 +379,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view7"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText33"
@@ -366,7 +396,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText34"
@@ -375,7 +406,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText35"
@@ -384,14 +416,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view7"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText36"
@@ -400,7 +433,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText37"
@@ -409,7 +443,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText38"
@@ -418,7 +453,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -433,7 +469,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText41"
@@ -442,7 +479,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText42"
@@ -451,14 +489,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view8"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText43"
@@ -467,7 +506,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText44"
@@ -476,7 +516,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText45"
@@ -485,14 +526,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view9"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText46"
@@ -501,7 +543,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText47"
@@ -510,7 +553,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText48"
@@ -519,7 +563,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -534,7 +579,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText51"
@@ -543,7 +589,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText52"
@@ -552,14 +599,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/viewa"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText53"
@@ -568,7 +616,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText54"
@@ -577,7 +626,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText55"
@@ -586,14 +636,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/viewb"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText56"
@@ -602,7 +653,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText57"
@@ -611,7 +663,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText58"
@@ -620,14 +673,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <View
             android:id="@+id/view98"
-            android:layout_height="3dip"
             android:layout_width="fill_parent"
-            android:background="#000000"/>
+            android:layout_height="3dip"
+            android:background="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -641,7 +695,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText61"
@@ -650,7 +705,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText62"
@@ -659,14 +715,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/viewc"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText63"
@@ -675,7 +732,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText64"
@@ -684,7 +742,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText65"
@@ -693,14 +752,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/viewd"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText66"
@@ -709,7 +769,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText67"
@@ -718,7 +779,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText68"
@@ -727,7 +789,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -742,7 +805,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText71"
@@ -751,7 +815,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText72"
@@ -760,14 +825,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/viewe"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText73"
@@ -776,7 +842,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText74"
@@ -785,7 +852,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText75"
@@ -794,14 +862,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/viewf"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText76"
@@ -810,7 +879,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText77"
@@ -819,7 +889,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText78"
@@ -828,7 +899,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -843,7 +915,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText81"
@@ -852,7 +925,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText82"
@@ -861,14 +935,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/view10"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText83"
@@ -877,7 +952,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText84"
@@ -886,7 +962,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText85"
@@ -895,14 +972,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <View
                 android:id="@+id/vie11"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="3dip"
                 android:layout_height="fill_parent"
-                android:background="#000000"/>
+                android:layout_toRightOf="@+id/text1"
+                android:background="#000000" />
 
             <EditText
                 android:id="@+id/editText86"
@@ -911,7 +989,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText87"
@@ -920,7 +999,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
 
             <EditText
                 android:id="@+id/editText88"
@@ -929,7 +1009,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1" />
         </LinearLayout>
 
         <Button

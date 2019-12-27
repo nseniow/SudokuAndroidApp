@@ -79,6 +79,10 @@ public class Puzzle {
                     int tempStore = arr[i][j];
                     arr[i][j] = 0;
 
+                    if(tempStore<0||tempStore>9){
+                        return false;
+                    }
+
                     if(check(i,j,tempStore)){
                         arr[i][j] = tempStore;
                     }else {
